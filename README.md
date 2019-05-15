@@ -1,1 +1,1 @@
-# Anomaly-Detection-in-Dynamic-Networks-comparison-and-benchmarking
+# Anomaly Detection in Dynamic Networks: comparison and benchmarking
