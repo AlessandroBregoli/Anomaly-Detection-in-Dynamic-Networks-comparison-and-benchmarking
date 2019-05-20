@@ -4,11 +4,9 @@
 ## Introduction
 This repo provides a set of pickles used in our comparison. Each pickle represents an experiment performed via Monte Carlo method (see section 3.4 of the paper for more info). 
 ## Dataset 
-[Enron](http://www.ahschulz.de/enron-email-data/) inserire descrizione
-
-[email-eu-core](https://snap.stanford.edu/data/email-Eu-core.html) inserire descrizione
-
-[Nodobo](http://nodobo.com/release.html) inserire descrizione
+- [Enron](http://www.ahschulz.de/enron-email-data/) inserire descrizione
+- [email-eu-core](https://snap.stanford.edu/data/email-Eu-core.html) inserire descrizione
+- [Nodobo](http://nodobo.com/release.html) inserire descrizione
 
 ## Exploration Analysis
 Qui inserite l'analisi esplorativa
