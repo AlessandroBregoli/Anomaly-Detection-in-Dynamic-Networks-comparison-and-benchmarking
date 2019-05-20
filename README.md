@@ -12,6 +12,8 @@ This repo provides a set of pickles used in our comparison. Each pickle represen
 Qui inserite l'analisi esplorativa
 
 ## Experimental settings
+we have chosen 10 iterations for any experiments performed by using Monte Carlo method. The table(referenza a tabella) shows more details on algorithms' parameters. On any iteration of Monte Carlo method the grid search uses all parameters' combination for any algorithms (as shown Section 3.4).
+
 qui inserire discorso su montecarlo numero iterazioni no tabelle
 subito dopo, in un'altra sezione, spiegare i paramentri scelti per il gridsearch. 
 
