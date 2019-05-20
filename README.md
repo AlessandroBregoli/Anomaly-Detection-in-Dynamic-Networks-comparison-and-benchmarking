@@ -12,7 +12,7 @@ These two line of codes shows how to import a pickle file in Python3
 pickle_in = open("dict.pickle","rb")
 example_dict = pickle.load(pickle_in)
 ```
-## Pickel file's contents
+## Pickle file's contents
 Each file contains:
 An array containing ten objects, representing Monte Carlo's iterations, where any object provides a groundtruth (boolean array that shows where the anomalies are injected) and an array containing adjacency matrices. 
 Each pickel file represent an experiment using a type of anomaly.
