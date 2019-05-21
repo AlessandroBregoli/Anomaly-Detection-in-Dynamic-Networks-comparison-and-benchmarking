@@ -20,6 +20,16 @@ For each dataset we carefully selected the candidate snapshots _C_ for anomaly i
 - __algorithms execution__ : related to exploiting the output of each algorithms on the datasets in order to select the set of snapshots that presents less anomalousness. 
 
 ## Experimental settings
+The Table 1 shows timelaps chosen for each dataset.
+
+|       Dataset      | Splitted by  |
+|-------------------:| :-----: | 
+| Nodobo             | Day |
+| Email-Eu-core      | Week |
+| Enron              | Week |
+
+__Table 1__ : Datasets and their splitting parameters
+
 we have chosen 10 iterations for any experiments performed by using Monte Carlo method. The __Table 1__ shows more details on algorithms' parameters. On any iteration of Monte Carlo method the grid search uses all parameters' combination for any algorithm (as shown in paper's Section 3.4). For what concerns the parameter _p_ in monte carlo method we used the value 0.8 in order to create the set of anomalous snapshots __A__.  
 
 
@@ -30,7 +40,7 @@ we have chosen 10 iterations for any experiments performed by using Monte Carlo 
 | Edmcg                   | __W__:{3,5,7} __W1__:{3, 5,7}    |
 | Icleod                  |     __k__:{1,2,3,7,10,15,20}     |
 
-__Table 1__ : algotithms and parameters
+__Table 1.1__ : algotithms and parameters
 
 
 ## Pickle
