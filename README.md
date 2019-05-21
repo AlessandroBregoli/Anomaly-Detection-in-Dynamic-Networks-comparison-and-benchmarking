@@ -12,10 +12,10 @@ This repo provides a set of pickles used in our comparison, each file represents
   structure for more than 800 days.
 - [Nodobo](http://nodobo.com/release.html): it concerns the cellular phone call behaviour of 27 students, and
   consists of more than 700 nodes, more than 13K directed and weighted arcs.
-  The day-by-day phone calls graph is made available for about 200 days
+  The day-by-day phone calls graph is made available for about 200 days.
 
 ## Exploratory Analysis
-For each dataset we carefully selected the candidate snapshots _C_ for anomaly injection by performing an exploratory analysis. The exploratory analysis is characterized by two main steps. The first step concerns splitting the datasets into snapshots using a timelaps (i.e. week, day, month). The other step concerns actual exploratory analysis performed by using two empirical method:
+For each dataset we carefully selected the candidate snapshots _C_ for anomaly injection by performing an exploratory analysis characterized by two main steps. The first step concerns splitting the datasets into snapshots using a timelaps (i.e. week, day, month). The other step concerns actual exploratory analysis performed by using two empirical method:
 - __statistical analysis__ : related to analyzing each snapshots by using max degree and number of edges.
 - __algorithms execution__ : related to exploiting the output of each algorithms on the datasets in order to select the set of snapshots that presents less anomalousness. 
 
@@ -30,7 +30,7 @@ The Table 1 shows timelaps chosen to splitting each dataset.
 
 __Table 1__ : Datasets and their splitting parameters.
 
-we have chosen 10 iterations for any experiments performed by using Monte Carlo method. The __Table 1__ shows more details on algorithms' parameters. On any iteration of Monte Carlo method the grid search uses all parameters' combination for any algorithm (as shown in paper's Section 3.4). For what concerns the parameter _p_ in monte carlo method we used the value 0.8 in order to create the set of anomalous snapshots __A__.  
+We chosen 10 iterations for each experiment performed using Monte Carlo method. The __Table 1__ shows more details on algorithms parameters. It is worthwhile to mention that in each iteration of Monte Carlo method the grid search uses all parameters combination for each algorithm (as shown in paper's Section 3.4). For what concerns the parameter _p_ in Monte Carlo method we used the value 0.8 in order to create the set of anomalous snapshots __A__.  
 
 
 |       Algorithm         |              Parameters          | 
