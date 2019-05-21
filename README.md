@@ -15,7 +15,7 @@ This repo provides a set of pickles used in our comparison. Each pickle represen
   The day-by-day phone calls graph is made available for about 200 days
 
 ## Exploratory Analysis
-For each dataset we carefully selected the candidate snapshots _C_ for anomaly injection by performing an exploratory analysis for each datasets. The exploratory analysis is characterized by two main steps. The first step concerns splitting the datasets into snapshots using a timelaps (i.e. week, day, month). The other step concerns actual exploratory analysis performed by using two empirical method:
+For each dataset we carefully selected the candidate snapshots _C_ for anomaly injection by performing an exploratory analysis. The exploratory analysis is characterized by two main steps. The first step concerns splitting the datasets into snapshots using a timelaps (i.e. week, day, month). The other step concerns actual exploratory analysis performed by using two empirical method:
 - __statistical analysis__ : related to analyzing each snapshots by using max degree and number of edges.
 - __algorithms execution__ : related to exploiting the output of each algorithms on the datasets in order to select the set of snapshots that presents less anomalousness. 
 
