@@ -45,8 +45,9 @@ __Table 1.1__ : Algorithms and their parameters used in grid search method.
 ## Pickle file structure and content
 
 Each file contains:
-An array containing ten objects, representing Monte Carlo iterations, where any object provides a groundtruth (boolean array that shows where the anomalies are injected) and an array containing adjacency matrices already injected. 
-Each pickel file represent an experiment using a type of anomaly.
+
+An array composed by ten objects, representing Monte Carlo iterations, where each object provides a groundtruth (boolean array that shows where the anomalies are injected) and an array containing adjacency matrices already injected. 
+Each pickle file represents an experiment using a type of anomaly.
 
 File structure:
   
