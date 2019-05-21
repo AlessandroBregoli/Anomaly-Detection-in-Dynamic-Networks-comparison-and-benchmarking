@@ -2,7 +2,7 @@
 
 # Anomaly Detection in Dynamic Networks: comparison and benchmarking
 ## Introduction
-This repo provides a set of pickles used in our comparison. Each pickle represents an experiment performed via Monte Carlo method (see section 3.4 of the paper for more info). 
+This repo provides a set of pickles used in our comparison. Each pickle represents an experiment performed via Monte Carlo method (see section 3.4 of the paper for more info). SISTEMARE FINENDO DI SCRIVERE IL RESTO!
 ## Dataset 
 - [Enron](http://www.ahschulz.de/enron-email-data/): concerns email messages, and consists of about 90K nodes, more
   than a million directed arcs. The daily structure of the graph is made avail-
@@ -14,9 +14,12 @@ This repo provides a set of pickles used in our comparison. Each pickle represen
   consists of more than 700 nodes, more than 13K directed and weighted arcs.
   The day-by-day phone calls graph is made available for about 200 days
 
-## Exploration Analysis
-Qui inserite l'analisi esplorativa
+## Exploratory Analysis
+For each dataset we carefully selected the candidate snapshots _C_ for anomaly injection by performing an exploratory analysis for each datasets. The exploratory analysis is characterized by two main steps. The first step concerns splitting the datasets into snapshots using a timelaps (i.e. week, day, month). The other step concerns actual exploratory analysis performed by using two empirical method:
+- __statistical analysis__ : related to analyzing each snapshots by using max degree and number of edges.
+- __algorithms execution__ : related to exploiting the output of each algorithms on the datasets in order to select the set of snapshots that presents less anomalousness. 
 
+valutazione dei risultati degli algoritmi sul dataset senza l'iniezione dell'anomalia.
 ## Experimental settings
 we have chosen 10 iterations for any experiments performed by using Monte Carlo method. The table here below shows more details on algorithms' parameters. On any iteration of Monte Carlo method the grid search uses all parameters' combination for any algorithm (as shown in paper's Section 3.4). For what concerns the parameter _p_ in monte carlo method we used the value 0.8 in order to create the set of anomalous snapshots __A__.  
 
