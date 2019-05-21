@@ -2,7 +2,7 @@
 
 # Anomaly Detection in Dynamic Networks: comparison and benchmarking
 ## Introduction
-This repo provides a set of pickles used in our comparison, each file represents an experiment performed via Monte Carlo method (see section 3.4 of the paper for more info). The Section __Datasets__ provides links to download datasets and gives information about their content. The section __Exploratory Anlisys__ provides a brief explaination on how the exploratory analisys, cited in Section 3.4 of the paper, was performed. The section __Experimental settings__ gives more details about algorithms parameters used by grid search method and describes the timelaps chosen in order to split the datasets in snapshots. The last section contains the structure of the pickle files and how to import them in Python3.   
+This repo provides a set of pickle files used in our comparison, each one represents an experiment performed via Monte Carlo method (see section 3.4 of the paper for more info). The Section __Datasets__ provides links to download datasets and gives information about their content. The section __Exploratory Anlisys__ provides a brief explaination on how the exploratory analisys, cited in Section 3.4 of the paper, was performed. The section __Experimental settings__ gives more details about algorithms parameters used by grid search method and describes the timelaps chosen in order to split the datasets in snapshots. The last section contains the structure of the pickle files and how to import them in Python3.   
 ## Datasets 
 - [Enron](http://www.ahschulz.de/enron-email-data/): concerns email messages, and consists of about 90K nodes, more
   than a million directed arcs. The daily structure of the graph is made avail-
