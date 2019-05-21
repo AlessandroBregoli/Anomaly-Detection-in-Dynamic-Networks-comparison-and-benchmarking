@@ -4,18 +4,26 @@
 ## Introduction
 This repo provides a set of pickles used in our comparison. Each pickle represents an experiment performed via Monte Carlo method (see section 3.4 of the paper for more info). 
 ## Dataset 
-- [Enron](http://www.ahschulz.de/enron-email-data/) inserire descrizione
-- [email-eu-core](https://snap.stanford.edu/data/email-Eu-core.html) inserire descrizione
+- [Enron](http://www.ahschulz.de/enron-email-data/): concerns email messages, and consists of about 90K nodes, more
+  than a million directed arcs. The daily structure of the graph is made avail-
+  able for more than 5 years.
+- [email-eu-core](https://snap.stanford.edu/data/email-Eu-core.html): 
 - [Nodobo](http://nodobo.com/release.html) inserire descrizione
 
 ## Exploration Analysis
 Qui inserite l'analisi esplorativa
 
 ## Experimental settings
-we have chosen 10 iterations for any experiments performed by using Monte Carlo method. The table(referenza a tabella) shows more details on algorithms' parameters. On any iteration of Monte Carlo method the grid search uses all parameters' combination for any algorithms (as shown Section 3.4).
+we have chosen 10 iterations for any experiments performed by using Monte Carlo method. The table here below shows more details on algorithms' parameters. On any iteration of Monte Carlo method the grid search uses all parameters' combination for any algorithm (as shown in paper's Section 3.4). For what concerns the parameter __p__ in monte carlo method we used the value 0.8 in order to create the set of anomalous snapshots __A__.  
 
-qui inserire discorso su montecarlo numero iterazioni no tabelle
-subito dopo, in un'altra sezione, spiegare i paramentri scelti per il gridsearch. 
+
+|       Algorithm         |              Parameters          | 
+|-----------------------: | :--------------------------------: | 
+| Scan-Statistics         | __k__:{0,1,2} __tau__:{3,4,5,6} __tau__ = __l__ |
+| Deltacon                |               __--__             |
+| Edmcg                   | __W__:{3,5,7} __W1__:{3, 5,7}    |
+| Icleod                  |     __k__:{1,2,3,7,10,15,20}     |
+
 
 
 ## Pickle
@@ -29,7 +37,7 @@ example_dict = pickle.load(pickle_in)
 ```
 ## Pickle file's contents
 Each file contains:
-An array containing ten objects, representing Monte Carlo's iterations, where any object provides a groundtruth (boolean array that shows where the anomalies are injected) and an array containing adjacency matrices. 
+An array containing ten objects, representing Monte Carlo's iterations, where any object provides a groundtruth (boolean array that shows where the anomalies are injected) and an array containing adjacency matrices already injected. 
 Each pickel file represent an experiment using a type of anomaly.
 
 File's structure:
