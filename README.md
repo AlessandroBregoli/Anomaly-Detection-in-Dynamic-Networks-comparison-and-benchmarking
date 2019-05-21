@@ -7,14 +7,18 @@ This repo provides a set of pickles used in our comparison. Each pickle represen
 - [Enron](http://www.ahschulz.de/enron-email-data/): concerns email messages, and consists of about 90K nodes, more
   than a million directed arcs. The daily structure of the graph is made avail-
   able for more than 5 years.
-- [email-eu-core](https://snap.stanford.edu/data/email-Eu-core.html): 
-- [Nodobo](http://nodobo.com/release.html) inserire descrizione
+- [Email-Eu-core](https://snap.stanford.edu/data/email-Eu-core.html): a graph of email messages between members of a European                 
+  research center. About 1K nodes, and more than 300K directed arcs are used to describe the day-by-day evolution of the graph
+  structure for more than 800 days.
+- [Nodobo](http://nodobo.com/release.html): it concerns the cellular phone call behaviour of 27 students, and
+  consists of more than 700 nodes, more than 13K directed and weighted arcs.
+  The day-by-day phone calls graph is made available for about 200 days
 
 ## Exploration Analysis
 Qui inserite l'analisi esplorativa
 
 ## Experimental settings
-we have chosen 10 iterations for any experiments performed by using Monte Carlo method. The table here below shows more details on algorithms' parameters. On any iteration of Monte Carlo method the grid search uses all parameters' combination for any algorithm (as shown in paper's Section 3.4). For what concerns the parameter __p__ in monte carlo method we used the value 0.8 in order to create the set of anomalous snapshots __A__.  
+we have chosen 10 iterations for any experiments performed by using Monte Carlo method. The table here below shows more details on algorithms' parameters. On any iteration of Monte Carlo method the grid search uses all parameters' combination for any algorithm (as shown in paper's Section 3.4). For what concerns the parameter _p_ in monte carlo method we used the value 0.8 in order to create the set of anomalous snapshots __A__.  
 
 
 |       Algorithm         |              Parameters          | 
