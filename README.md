@@ -2,8 +2,8 @@
 
 # Anomaly Detection in Dynamic Networks: comparison and benchmarking
 ## Introduction
-This repo provides a set of pickles used in our comparison. Each pickle represents an experiment performed via Monte Carlo method (see section 3.4 of the paper for more info). SISTEMARE FINENDO DI SCRIVERE IL RESTO!
-## Dataset 
+This repo provides a set of pickles used in our comparison, each file represents an experiment performed via Monte Carlo method (see section 3.4 of the paper for more info). The Section __Datasets__ provides links to download datasets and gives information about their content. The section __Exploratory Anlisys__ provides a brief explaination on how the exploratory analisys, cited in Section 3.4 of the paper, was performed. The section __Experimental settings__ gives more details about algorithms parameters used by grid search method and describes the timelaps chosen in order to split the datasets in snapshots. The last section contains the structure of the pickle files and how to import them in Python3.   
+## Datasets 
 - [Enron](http://www.ahschulz.de/enron-email-data/): concerns email messages, and consists of about 90K nodes, more
   than a million directed arcs. The daily structure of the graph is made avail-
   able for more than 5 years.
@@ -42,22 +42,14 @@ we have chosen 10 iterations for any experiments performed by using Monte Carlo 
 
 __Table 1.1__ : Algorithms and their parameters used in grid search method.
 
+## Pickle file structure and content
 
-## Pickle
-The pickle module implements binary protocols for serializing and de-serializing a Python object structure. 
-
-#### How to import a Pickle file in Python 3
-These two line of codes shows how to import a pickle file in Python3
-```python3
-pickle_in = open("dict.pickle","rb")
-example_dict = pickle.load(pickle_in)
-```
-## Pickle file's contents
 Each file contains:
-An array containing ten objects, representing Monte Carlo's iterations, where any object provides a groundtruth (boolean array that shows where the anomalies are injected) and an array containing adjacency matrices already injected. 
+An array containing ten objects, representing Monte Carlo iterations, where any object provides a groundtruth (boolean array that shows where the anomalies are injected) and an array containing adjacency matrices already injected. 
 Each pickel file represent an experiment using a type of anomaly.
 
-File's structure:
+File structure:
+  
   - pickle file
     - 0th Montecarlo iteration
       - groundtruth: <img src="http://latex.codecogs.com/svg.latex?\[0,1, 0, \ldots ,0\]" border="0"/>
