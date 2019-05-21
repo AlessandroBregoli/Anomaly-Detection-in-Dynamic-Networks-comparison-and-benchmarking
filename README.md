@@ -29,7 +29,8 @@ we have chosen 10 iterations for any experiments performed by using Monte Carlo 
 | Deltacon                |               __--__             |
 | Edmcg                   | __W__:{3,5,7} __W1__:{3, 5,7}    |
 | Icleod                  |     __k__:{1,2,3,7,10,15,20}     |
-       __Table 1__ : algotithms and parameters
+
+__Table 1__ : algotithms and parameters
 
 
 ## Pickle
