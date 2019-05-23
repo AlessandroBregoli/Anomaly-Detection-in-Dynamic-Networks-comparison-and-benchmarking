@@ -1,9 +1,10 @@
 
 
 # Anomaly Detection in Dynamic Networks: comparison and benchmarking
-## _The 16th International Conference on Modeling Decisions for Artificial Intelligence_
-Milan, Italy September 4 - 6, 2019
-http://www.mdai.cat/mdai2019
+_The 16th International Conference on Modeling Decisions for Artificial Intelligence_
+
+Milan, Italy September 4 - 6, 2019 http://www.mdai.cat/mdai2019
+
 ## Introduction
 This repo contains pickle files used to compare performance of different anomaly detection algorithms, each one represents an experiment performed via Monte Carlo method (see section 3.4 of the paper for more info). The Section __Datasets__ provides links to download datasets and gives information about their content. The section __Exploratory Analysis__ provides a brief explaination on how the exploratory analysis, cited in Section 3.4 of the paper, was performed. The section __Experimental settings__ gives more details about algorithms' parameters values used by grid search method and describes the timelaps chosen in order to split the datasets into snapshots. The last section describes the structure of the pickle files and how to import them into the Python3 environment.   
 ## Datasets 
