@@ -38,7 +38,7 @@ We set the number of iterations to 10 for each experiment performed using Monte 
 
 |       Algorithm         |              Parameters          | 
 |-----------------------: | :--------------------------------: | 
-| Scan-Statistics         | __k__:{0,1,2} __tau__:{3,4,5,6} __l__ = __tau__  |
+| Scan-Statistics         | __k__:{0,1,2} __tau__:{3,4,5,6}  |
 | Deltacon                |               __--__             |
 | Edmcg                   | __W__:{3,5,7} __W1__:{3, 5,7}    |
 | Icleod                  |     __k__:{1,2,3,7,10,15,20}     |
