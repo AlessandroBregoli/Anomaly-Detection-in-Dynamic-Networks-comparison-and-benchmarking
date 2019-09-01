@@ -9,9 +9,9 @@ Milan, Italy September 4 - 6, 2019 http://www.mdai.cat/mdai2019
 This repo contains pickle files used to compare performance of different anomaly detection algorithms, each one represents an experiment performed via Monte Carlo method (see section 3.4 of the paper for more info). The Section __Datasets__ provides links to download datasets and gives information about their content. The section __Exploratory Analysis__ provides a brief explaination on how the exploratory analysis, cited in Section 3.4 of the paper, was performed. The section __Experimental settings__ gives more details about algorithms' parameters values used by grid search method and describes the timelaps chosen in order to split the datasets into snapshots. The last section describes the structure of the pickle files and how to import them into the Python3 environment.   
 ## Datasets 
 - [Enron](http://www.ahschulz.de/enron-email-data/): concerns email messages, and consists of about 90K nodes, more
-  than a million directed arcs. The dataset made available in this repository is a subset containing only the email which have enron dependants as both sender and reciver.  The weekly structure of the graph is made available for more than 3 years.
+  than a million directed arcs. The dataset made available in this repository is a subset containing only the email which have enron dependants as both sender and reciver.  The day-by-day structure of the graph is made available for more than 3 years.
 - [Email-Eu-core](https://snap.stanford.edu/data/email-Eu-core.html): a graph of email messages between members of a European                 
-  research center. About 1K nodes, and more than 300K directed arcs are used to describe the weekly evolution of the graph
+  research center. About 1K nodes, and more than 300K directed arcs are used to describe the daily evolution of the graph
   structure for more than 800 days.
 - [Nodobo](http://nodobo.com/release.html): it concerns the cellular phone call behaviour of 27 students, and
   consists of more than 700 nodes, more than 13K directed and weighted arcs.
